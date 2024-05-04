@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAvDlqCYPuPzaLWs61Ton0R1im75/zjO2d+fbAH7sIrz4jqDPynwsPOd1B8Fl7BDj+u2nOb6KAAgqex/G7Th7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marshall.wilson\\Source\\Repos\\SeanBeanBot\\SeanBeanBot.Domain\\SeanBeanBot.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.all\\2.15.0\\functional.all.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.asyncenumerables\\2.15.0\\functional.asyncenumerables.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.common.extensions\\2.15.0\\functional.common.extensions.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.enumerables.extensions\\2.15.0\\functional.enumerables.extensions.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.primitives\\2.15.0\\functional.primitives.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.primitives.asyncenumerables\\2.15.0\\functional.primitives.asyncenumerables.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.primitives.extensions\\2.15.0\\functional.primitives.extensions.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.unions\\2.15.0\\functional.unions.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.unions.asyncenumerables\\2.15.0\\functional.unions.asyncenumerables.2.15.0.nupkg.sha512",
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\functional.unions.extensions\\2.15.0\\functional.unions.extensions.2.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

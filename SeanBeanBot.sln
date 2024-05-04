@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeanBeanBot", "SeanBeanBot\SeanBeanBot.csproj", "{98C34026-C31B-4E9F-9FFA-7A0864C706BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeanBeanBot.Persistence", "SeanBeanBot.Persistence\SeanBeanBot.Persistence.csproj", "{A96B67FF-3FEC-4616-BF22-8A8DEE3483EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeanBeanBot.Domain", "SeanBeanBot.Domain\SeanBeanBot.Domain.csproj", "{7536F1C3-9402-46E9-BC6C-90483C4D7488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DD48F956-CEF4-41F4-A009-DCAAE961B56C}"
+	ProjectSection(SolutionItems) = preProject
+		main.tf = main.tf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98C34026-C31B-4E9F-9FFA-7A0864C706BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C34026-C31B-4E9F-9FFA-7A0864C706BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C34026-C31B-4E9F-9FFA-7A0864C706BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C34026-C31B-4E9F-9FFA-7A0864C706BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96B67FF-3FEC-4616-BF22-8A8DEE3483EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96B67FF-3FEC-4616-BF22-8A8DEE3483EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96B67FF-3FEC-4616-BF22-8A8DEE3483EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96B67FF-3FEC-4616-BF22-8A8DEE3483EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7536F1C3-9402-46E9-BC6C-90483C4D7488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7536F1C3-9402-46E9-BC6C-90483C4D7488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7536F1C3-9402-46E9-BC6C-90483C4D7488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7536F1C3-9402-46E9-BC6C-90483C4D7488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ABB8998-9644-4E8B-BFC2-8A7E98FAD111}
+	EndGlobalSection
+EndGlobal

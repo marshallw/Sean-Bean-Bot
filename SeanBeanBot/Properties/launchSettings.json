@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SeanBeanBot": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7212"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31882,
+      "useSSL": false
+    }
+  }
+}

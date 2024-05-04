@@ -1,0 +1,327 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Functional.All/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.AsyncEnumerables": "2.15.0",
+          "Functional.Common.Extensions": "2.15.0",
+          "Functional.Enumerables.Extensions": "2.15.0",
+          "Functional.Primitives": "2.15.0",
+          "Functional.Primitives.AsyncEnumerables": "2.15.0",
+          "Functional.Primitives.Extensions": "2.15.0",
+          "Functional.Unions": "2.15.0",
+          "Functional.Unions.AsyncEnumerables": "2.15.0",
+          "Functional.Unions.Extensions": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        }
+      },
+      "Functional.AsyncEnumerables/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.Enumerables.Extensions": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Functional.AsyncEnumerables.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Functional.AsyncEnumerables.dll": {}
+        }
+      },
+      "Functional.Common.Extensions/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.Primitives": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Functional.Common.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Common.Extensions.dll": {}
+        }
+      },
+      "Functional.Enumerables.Extensions/2.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Functional.Enumerables.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Enumerables.Extensions.dll": {}
+        }
+      },
+      "Functional.Primitives/2.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Functional.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Primitives.dll": {}
+        }
+      },
+      "Functional.Primitives.AsyncEnumerables/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.AsyncEnumerables": "2.15.0",
+          "Functional.Primitives": "2.15.0",
+          "Functional.Primitives.Extensions": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Functional.Primitives.AsyncEnumerables.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Functional.Primitives.AsyncEnumerables.dll": {}
+        }
+      },
+      "Functional.Primitives.Extensions/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.Primitives": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Functional.Primitives.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Primitives.Extensions.dll": {}
+        }
+      },
+      "Functional.Unions/2.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Functional.Unions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Unions.dll": {}
+        }
+      },
+      "Functional.Unions.AsyncEnumerables/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.AsyncEnumerables": "2.15.0",
+          "Functional.Primitives": "2.15.0",
+          "Functional.Unions": "2.15.0",
+          "Functional.Unions.Extensions": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Functional.Unions.AsyncEnumerables.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Functional.Unions.AsyncEnumerables.dll": {}
+        }
+      },
+      "Functional.Unions.Extensions/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Functional.Primitives": "2.15.0",
+          "Functional.Unions": "2.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Functional.Unions.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Functional.Unions.Extensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Functional.All/2.15.0": {
+      "sha512": "9MXiVmdurvrjy6AecNhDD95vplVNIHTAG2OHO92RRkB7GViPd/mhNuRpBLdQphRsT4zlcKqsujdEM/Ru11zimw==",
+      "type": "package",
+      "path": "functional.all/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.all.2.15.0.nupkg.sha512",
+        "functional.all.nuspec",
+        "lib/netstandard2.1/_._"
+      ]
+    },
+    "Functional.AsyncEnumerables/2.15.0": {
+      "sha512": "p6Kb0XorWClNI0a1uIS2nHhfKvgt4EdIGXI060h39dlzb3CP9/sV4m53iAvZYfeCjy2GdhoLdbpDrkU+zyPwsg==",
+      "type": "package",
+      "path": "functional.asyncenumerables/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.asyncenumerables.2.15.0.nupkg.sha512",
+        "functional.asyncenumerables.nuspec",
+        "lib/netstandard2.1/Functional.AsyncEnumerables.dll"
+      ]
+    },
+    "Functional.Common.Extensions/2.15.0": {
+      "sha512": "PwObdvnh+1BM2YG7KXlVXsK9rmG8To1TlkrwDmVnFL5TR78RaDrFVwQ2x7ivPdQ8YOc36AfeE2FJuroklFSOBA==",
+      "type": "package",
+      "path": "functional.common.extensions/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.common.extensions.2.15.0.nupkg.sha512",
+        "functional.common.extensions.nuspec",
+        "lib/netstandard2.0/Functional.Common.Extensions.dll"
+      ]
+    },
+    "Functional.Enumerables.Extensions/2.15.0": {
+      "sha512": "WOI44di5wD/WQl463LFVHpysznzxJ17FyOEm2zNTe3T8ea5U10zG1jwdV6ZYd0bQpQuovt562oN8ExaeShx8PA==",
+      "type": "package",
+      "path": "functional.enumerables.extensions/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.enumerables.extensions.2.15.0.nupkg.sha512",
+        "functional.enumerables.extensions.nuspec",
+        "lib/netstandard2.0/Functional.Enumerables.Extensions.dll"
+      ]
+    },
+    "Functional.Primitives/2.15.0": {
+      "sha512": "gmZNKTzhZ1nrwEb2wV9Bqg9/EkACCHG2dsEWwcShLz2xIMaXOyIqmLCPfP6NfiB747mq1fq4TdDi6Y090p6hKA==",
+      "type": "package",
+      "path": "functional.primitives/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.primitives.2.15.0.nupkg.sha512",
+        "functional.primitives.nuspec",
+        "lib/netstandard2.0/Functional.Primitives.dll"
+      ]
+    },
+    "Functional.Primitives.AsyncEnumerables/2.15.0": {
+      "sha512": "xsk4jLUozA6sPYVlPEBqe9NJEmJsvaSLVpXVIwqB+dyTQJ0I+gk+ca8VydFxe/3b8d5R3QReKSSgxhBiFDAjxw==",
+      "type": "package",
+      "path": "functional.primitives.asyncenumerables/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.primitives.asyncenumerables.2.15.0.nupkg.sha512",
+        "functional.primitives.asyncenumerables.nuspec",
+        "lib/netstandard2.1/Functional.Primitives.AsyncEnumerables.dll"
+      ]
+    },
+    "Functional.Primitives.Extensions/2.15.0": {
+      "sha512": "o9LaYxhObn71HkPKCH32ANPNk6OJBi1qonKaKJOWt4N7ywZduXecIKVWT1HJAAN3XEJSa+eI02q8fSi3CW0btQ==",
+      "type": "package",
+      "path": "functional.primitives.extensions/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.primitives.extensions.2.15.0.nupkg.sha512",
+        "functional.primitives.extensions.nuspec",
+        "lib/netstandard2.0/Functional.Primitives.Extensions.dll"
+      ]
+    },
+    "Functional.Unions/2.15.0": {
+      "sha512": "YhNgbfNGYQqiZVGr7MHqp7bTVgpFtGCeTLsBxbbLA/JEsqn025FNJsBYgg1o/vK+7WR3s667F4aFkUKTEVRjpg==",
+      "type": "package",
+      "path": "functional.unions/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.unions.2.15.0.nupkg.sha512",
+        "functional.unions.nuspec",
+        "lib/netstandard2.0/Functional.Unions.dll"
+      ]
+    },
+    "Functional.Unions.AsyncEnumerables/2.15.0": {
+      "sha512": "vo5rP+Ai6lBL4Cv3HZeB2eDuSwn4OS9u9xjOaWtePKBIY5uoPjHf7seQ7SA5sb0puJm/dtiTzhggvWTxf+wLJg==",
+      "type": "package",
+      "path": "functional.unions.asyncenumerables/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.unions.asyncenumerables.2.15.0.nupkg.sha512",
+        "functional.unions.asyncenumerables.nuspec",
+        "lib/netstandard2.1/Functional.Unions.AsyncEnumerables.dll"
+      ]
+    },
+    "Functional.Unions.Extensions/2.15.0": {
+      "sha512": "oJyrUss7c4UC2WXdal/InPOqFoPv0jFu8rQ3ugUR2KhZvcpzTBdNWd0FtHTyVPRRdPQlywc3Zg+vB90K5Lzzfg==",
+      "type": "package",
+      "path": "functional.unions.extensions/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "functional.unions.extensions.2.15.0.nupkg.sha512",
+        "functional.unions.extensions.nuspec",
+        "lib/netstandard2.0/Functional.Unions.Extensions.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Functional.All >= 2.15.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marshall.wilson\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marshall.wilson\\Source\\Repos\\SeanBeanBot\\SeanBeanBot.Domain\\SeanBeanBot.Domain.csproj",
+      "projectName": "SeanBeanBot.Domain",
+      "projectPath": "C:\\Users\\marshall.wilson\\Source\\Repos\\SeanBeanBot\\SeanBeanBot.Domain\\SeanBeanBot.Domain.csproj",
+      "packagesPath": "C:\\Users\\marshall.wilson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marshall.wilson\\Source\\Repos\\SeanBeanBot\\SeanBeanBot.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\marshall.wilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Functional.All": {
+            "target": "Package",
+            "version": "[2.15.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
